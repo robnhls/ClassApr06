@@ -10,3 +10,9 @@ spam = [
     "Spam",
     "   Spam,    spam, spam,    spam, spam, eggs, and spam      ",
 ]
+
+
+# cleanup function goes here
+
+for item in spam:
+    

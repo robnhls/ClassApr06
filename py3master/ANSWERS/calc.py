@@ -12,13 +12,18 @@ def mul(x, y):
 def div(x, y):
     return x/y
 
+
+
+
+
+
 while True:
-    expr = input("Enter a math expression: ")
+    expr = input("Enter a math expression: ") # 19+1
 
     if expr.lower() == 'q':
         break
 
-    v1, op, v2 = expr.split()
+    v1, op, v2 = expr.split() # natural split on space
     v1 = float(v1)
     v2 = float(v2)
 
