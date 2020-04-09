@@ -14,3 +14,9 @@ print()
 
 print("".join(sorted(fruit_lines, key=lambda s: (s[1].lower(), s[0].lower()))))
 print()
+
+
+numbers = [1, 2, 3, 4]
+# message = numbers.join(", ")  #"1, 2, 3, 4"
+
+message = ", ".join(numbers)

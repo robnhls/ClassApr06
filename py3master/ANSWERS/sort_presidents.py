@@ -2,6 +2,9 @@
 
 # list to hold all presidents (will be list of lists)
 all_pres = []
+FIRST_NAME = 2
+LAST_NAME = 1
+STATE_OF_BIRTH = 6
 
 with open("../DATA/presidents.txt", "r") as PRES:
 
@@ -10,6 +13,6 @@ with open("../DATA/presidents.txt", "r") as PRES:
         all_pres.append(fields) # add list of fields
 
 # sort by lname, fname
-for fields in sorted(all_pres, key=lambda e: (e[1], e[2])):
-    print(fields[2], fields[1], fields[6])
+for fields in sorted(all_pres, key=lambda e: (e[LAST_NAME], e[FIRST_NAME])):
+    print(fields[FIRST_NAME], fields[LAST_NAME], fields[STATE_OF_BIRTH])
 
