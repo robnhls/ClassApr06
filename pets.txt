@@ -11,3 +11,6 @@ Kujo the cybernetically enhanced spider monkey
 dutchess
 buttons
 Shadow
+timmy
+& "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe" c:/class/petsutil.py
+& "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe" c:/class/py3master/ANSWERS/c2f_mod.py

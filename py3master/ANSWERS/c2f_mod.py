@@ -7,4 +7,3 @@ celsius = float(temp_str)
 fahrenheit = c2f(celsius)
 
 print("{:.1f} C is {:.1f} F".format(celsius, fahrenheit))
-
